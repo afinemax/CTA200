@@ -1,0 +1,558 @@
+    1  pwd
+    2  ls
+    3  /cita/local/bin/passwd
+    4  pwd
+    5  env | more
+    6  ls
+    7  cd .ssh
+    8  exit
+    9  pwd
+   10  ls
+   11  exit
+   12  ls
+   13  ls -lr
+   14  pwd
+   15  ls
+   16  cd /
+   17  ls
+   18  cd cita
+   19  ls
+   20  cd local
+   21  ls
+   22  cd /
+   23  cd users
+   24  cd Users
+   25  pwd
+   26  cd Users
+   27  pwd
+   28  cd ${HOME}
+   29  pwd
+   30  ls
+   31  ls fsg14.pdf
+   32  cd ..
+   33  ls
+   34   cd lost+found
+   35  pwd
+   36  cd ..
+   37  ls
+   38  cd tmp
+   39  ls
+   40  cd ..
+   41  pwd
+   42  cd etc
+   43  cat hosts
+   44  cat passwd
+   45  pwd
+   46  ls
+   47  pwd
+   48  cd /home
+   49  cd /usr
+   50  ls
+   51  cd games
+   52  pwd
+   53  ls
+   54  pwd
+   55  cd /home
+   56  ls
+   57  cd student07
+   58  pwd
+   59  ls -l
+   60  vi testfile.txt
+   61  ls
+   62  cat testfile.txt
+   63  ls -l testfile.txt
+   64  pwd
+   65  exit
+   66  pwd
+   67  ls
+   68  vncserver
+   69  /cita
+   70  whoami
+   71  pwd
+   72  cd/
+   73  cd /
+   74  pwd
+   75  ls
+   76  ls - la
+   77  ls -la
+   78  cd ~murray
+   79  ls -la
+   80  cd /home/cta200
+   81  pwd
+   82  cd /mnt/scratch-lustre/
+   83  pwd
+   84  ls
+   85  cd student07
+   86  ls -la
+   87  pwd
+   88  cd.
+   89  cd .
+   90  cd ..
+   91  pwd
+   92  mkdir /mnt/scratch-lustre/stuend07/gauss2d
+   93  pwd
+   94  echo $user
+   95  echo $USER
+   96  pwd
+   97  cd
+   98  pwd
+   99  cd
+  100  pwd
+  101  ..
+  102  cd..
+  103  ..cd
+  104  cd
+  105  pwd
+  106  cd ..
+  107  pwd
+  108  ls
+  109  find -name '*auss*'
+  110  pwd
+  111  cta200
+  112  cd /cta200
+  113  cd /home/cta200
+  114  find -name '*auss*'
+  115  ./research/gauss2d
+  116  /research/gauss2d
+  117  cd /home/cta200/research/gauss2d
+  118  cd /home/cta200/Research/gauss2d
+  119  pwd
+  120  mkdir /mnt/scratch-lustre/student07/gauss2d
+  121  pwd
+  122  src
+  123  pwd
+  124  cd
+  125  pwd
+  126  cd
+  127  pwd
+  128  mkdir /mnt/scratch-lustre/student07/gauss2d
+  129  cd /home/cta200/Research/gauss2d
+  130  history
+  131  src /home/cta200/Research/gauss2d
+  132  pwd
+  133  cp -av /homecta200/Research/gauss2d /mt/scratch-lustre/student07/gauss2d
+  134  cd /mnt/scratch-lustre/
+  135  cd student
+  136  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student07/gauss2d
+  137  pwd
+  138  less gauss2d.cc
+  139  pwd
+  140  open
+  141  open less gauss2d.cc
+  142  pwd
+  143  pwd /mnt/scratch-lustre/student07/guass2d
+  144  less gauss2d.cc
+  145  cd  /home/cta200/Research/gauss2d
+  146  pwd
+  147  less gauss2d.cc
+  148  cat makefile
+  149  pwd
+  150  cat makefile
+  151  pwd
+  152  less guass2d.cc
+  153  less gauss2d.cc
+  154  cat Makefile
+  155  vim plot.py
+  156  jobs
+  157  fg
+  158  jobs
+  159  ls -la
+  160  pwd
+  161  cd  /mnt/scratch-lustre/student07/guass2d
+  162  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+  163  cd /mnt/scratch-lustre/student07/gauss2d
+  164  pwd
+  165  ls
+  166  ls -la
+  167  cd gauss2d
+  168  ls -la
+  169  gedit plot.py
+  170  jobs
+  171  g++ gauss2d.cc -o gauss2d
+  172  g++ gauss2d.cc
+  173  ls -lt
+  174  ex
+  175  jobs
+  176  g++ gauss2d.cc
+  177  guass2d
+  178  /pwd
+  179  ./guass2d
+  180  module load gcc/5.40
+  181  pwd
+  182  module avail
+  183  module avail gcc
+  184  module load gcc/5.4.0
+  185  module load python/2.7.12
+  186  ./gauss2d > data.txt
+  187  pwd
+  188  ls -lr
+  189  ./script.py
+  190  module load python/2.7.12
+  191  ./script.py
+  192  python script.py
+  193  ./guass2d
+  194  ./gauss2d
+  195  ./guass2d > data.tx
+  196  ./guass2d > data.txt
+  197  ./gauss2d > data.txt
+  198  pwd
+  199  cd..
+  200  cd ..
+  201  pwd
+  202  ./gauss2d > data.txt
+  203  ./gauss2d
+  204  /gauss2d
+  205  ./gauss2d > data.txt
+  206  ./gauss2d > data01.txt
+  207  ls -la
+  208  more data01.txt
+  209  more data.txt
+  210  ./a.out
+  211  ./guass2d
+  212  pwd
+  213  ./gauss2d
+  214  ./a.out
+  215  cd
+  216  pwd
+  217  cd /mnt/scratch-lustre/student07/guass2d/guass2d
+  218  module avail
+  219  module avail gcc
+  220  module load gcc/5.4.0
+  221  pwd
+  222  cd /mnt/scratch-lustre/student07/guass2d
+  223  cd /mnt/scratch-lustre/student07/gauss2d
+  224  cd /mnt/scratch-lustre/student07/gauss2d/gauss2d
+  225  module avail
+  226  module avail gcc
+  227  module load gcc/5.4.0
+  228  ,odule load gcc/5.4.0
+  229  module load gcc/5.4.0
+  230  g++ gauss2d.cc -o gauss2d
+  231  ./guass2d
+  232  ./gauss2d
+  233  ./gauss2d > data02.txt
+  234  ls -la
+  235  module load python/2.7.12
+  236  ./script.py
+  237  python script.py
+  238  pwd
+  239  ./plot.py
+  240  ./plot.py < data02.txt
+  241  .git.*
+  242  ls -la ~
+  243  /* This program .... */
+  244  pwd
+  245  """ This script ... """
+  246  git config --global user.name "Maxwell_Fine"
+  247  git config --global user.email myemail@utoronto.ca
+  248  git config --global user.emaul maxwell.fine@mail.utoronto.ca
+  249  cd ~
+  250  mkdir mkdir -p repos/gauss2d.git
+  251  mkdir -p repos/gauss2d.git
+  252  cd repos/gauss2d.git
+  253  git init --bare
+  254  cd /mnt/scratch-lustre/student07/gauss2d
+  255  git init
+  256  echo "*.o" > .gitingore
+  257  git push --set-upstream origin master
+  258  vim gauss2d.cc
+  259* 
+  260  git config --global user.name "afinemax"
+  261  pwd
+  262  git config --global user.email maxwell.fine@mail.utoronto.ca
+  263  git config --global user.email afinemax@gmail.com
+  264  ls -la
+  265  cd repos
+  266  ls
+  267  ls -la
+  268  cd gauss2d.git
+  269  ls
+  270  pwd
+  271  ls -l
+  272  pwd
+  273  ls
+  274  cd ..
+  275  ls
+  276  pwd
+  277  ls
+  278  pwd
+  279  cd ..
+  280  cd /home/student07/repos
+  281  mkdir -p CTA200.git
+  282  pwd
+  283  ls -la
+  284  cd CTA200.git
+  285  pwd
+  286  ls -la
+  287  git init
+  288  ls -la
+  289  cd .git
+  290  ls -la
+  291  pwd
+  292  cd ..
+  293  ls -la
+  294  rmdir .git
+  295  rm -rf *.git
+  296  ls -la
+  297  ls -la .git
+  298  pwd
+  299  cd CTA200.git
+  300  ls
+  301  pwd
+  302  ls
+  303  ls -l
+  304  pwd
+  305  ls -la
+  306  cd .git
+  307  ls
+  308  pwd
+  309  ls -la
+  310  pwd
+  311  ls -la
+  312  pwd
+  313  cd ..
+  314  ls -la
+  315  chmod 777 .git
+  316  ls -la
+  317  rmdir .git
+  318  cd .git
+  319  ls
+  320  ls -la
+  321  chmod 777 *
+  322  ls -lsa
+  323  rm -rf *
+  324  ls -la
+  325  pwd
+  326  ls
+  327  ls -la
+  328  pwd
+  329  cd ..
+  330  pwd
+  331  ls -la
+  332  rmdir .git
+  333  pwd
+  334  ls
+  335  pwd
+  336  ls
+  337  pwd
+  338  ls
+  339  cd ..
+  340  ls -la
+  341  pwd
+  342  rmdir CTA200.git
+  343  mkdir CTA200
+  344  cd CTA200
+  345  pwd
+  346  ls
+  347  git init
+  348  ls -la
+  349  pwd
+  350  cd .git
+  351  ls -la
+  352  pwd
+  353  ls -la
+  354  cd ..
+  355  l
+  356  ls
+  357  pwd
+  358  ls -la
+  359  pwd
+  360  ls
+  361  ls -la
+  362  pwd
+  363  vi README.md
+  364  pwd
+  365  ls -l
+  366  cat README.md
+  367  rm README.md
+  368  vi README.md
+  369  jobs
+  370  cat README.md
+  371  tail README.md
+  372  vi README.md
+  373  pwd
+  374  ls
+  375  cat README.md
+  376  vi License
+  377  cat License
+  378  ls -la
+  379  cp License LICENSE
+  380  ls -la
+  381  rm License
+  382  ls -la
+  383  git add README.md
+  384  git status
+  385  git add LICENSE
+  386  git status
+  387  git commit -m "first comment on CTA200" 
+  388  git status
+  389  pwd
+  390  ls -la
+  391  ls
+  392  git remote add origin https://github.com/afinemax/CTA200.git
+  393  git status
+  394  git push -u origin master
+  395  cp LICENSE LICENSE2
+  396  git add LICENSE2
+  397  git push -u origin master
+  398  pwd
+  399  ls
+  400  rm LICENSE2
+  401  ls
+  402  git status
+  403  pwd
+  404  ls -la
+  405  p[wd
+  406  pwd
+  407  git remote add origin /home/student07/repos/CTA200/.git
+  408  pwd
+  409  ls
+  410  git push --set-upstream origin master
+  411  git push origin master
+  412  git config --list
+  413  git remote add origin git@github.com:afinemax/CTA200.git
+  414  git remote -v
+  415  git remote rm origin
+  416  git remote -v
+  417  git remote add origin git@github.com:afinemax/CTA200.git
+  418  git remote -v
+  419  git push -u origin master
+  420  pwd
+  421  ls
+  422  pwd
+  423  cd ..
+  424  pwd
+  425  ls
+  426  ls -la
+  427  cd .ssh
+  428  ls
+  429  ls -la
+  430  cat known_hosts
+  431  ssh-keygen
+  432  pwd
+  433  ls -la
+  434  vi id_rsa.pub.pub
+  435  pwd
+  436  cp id_rsa.pub.pub ../keyfile.pub
+  437  cd ..
+  438  ls -la
+  439  cat keyfile.pub
+  440  pwd
+  441  cd .ssh
+  442  ls
+  443  ssh-keygen
+  444  pwd
+  445  ls
+  446  cat maxkey.pub
+  447  pwd
+  448  cp maxkey.pub ..
+  449  ls
+  450  cat maxkey
+  451  pwd
+  452  cd ..
+  453  pwd
+  454  cd repos
+  455  cd CTA200
+  456  pwd
+  457  git push -u origin master
+  458  pwd
+  459  cd ..
+  460  pwd
+  461  cd .ssh
+  462  pwd
+  463  ls
+  464  ssh-keygen
+  465  ls -la
+  466  cat key01.pub
+  467  pwd
+  468  cp key01.pub ..
+  469  pwd
+  470  cd ..
+  471  pwd
+  472  ls
+  473  pwd
+  474  cd repos
+  475  cd CTA200
+  476  ls
+  477  vi average.c
+  478  cat average.c
+  479  vi average.c
+  480  cat average.h main.c
+  481  cat average.h
+  482  cat main.c
+  483  cat average.c
+  484  pwd
+  485  ls
+  486  cat main.c
+  487  cat average.h
+  488  cat average.c
+  489  cat main.c
+  490  gcc -version
+  491  gcc -v
+  492  pwd
+  493  ls
+  494  pwd
+  495  gcc first.c
+  496  gcc average.c
+  497  gcc average.c -std=c99
+  498  gcc -Wall main.c average.c -o average01
+  499  gcc -Wall -std=c99 main.c average.c -o average01
+  500  ./average01
+  501  pwd
+  502  cd ..
+  503  ls
+  504  cd repos
+  505  ls
+  506  cd gauss2d.git
+  507  ls
+  508  cd /mnt/scratch-lustre/$USER/gauss2d
+  509  ls
+  510  cd gauss2d
+  511  ls
+  512  cat Makefile
+  513  cd ..
+  514  cd 
+  515  pwd
+  516  cd repos
+  517  cd CTA200
+  518  pwd
+  519  gcc -Wall -STD=99 main.c average.c -o average02
+  520  gcc -Wall -std=c99  main.c average.c -o average02
+  521  pwd
+  522  ./average02
+  523  vi Makefile
+  524  cat Makefile
+  525  CC=gcc
+  526  pwd
+  527  env | more
+  528  pwd
+  529  make
+  530  ls -la 
+  531  ./average
+  532  cat Makefile
+  533  git status
+  534  git add Makefile average.c average.h main.c
+  535  git status
+  536  git commit
+  537  git commit -m "added main.c average.c average.h and the Makefile"
+  538  git status
+  539  git push
+  540  cat Makefile
+  541  make
+  542  ./average
+  543  Make
+  544  make
+  545  ./average
+  546  make
+  547  ./average
+  548  git commit -m "BONUS: increased the avg to be 1-7, and a joke"
+  549  get status
+  550  git status
+  551  git push
+  552  git add main.c
+  553  git commit -m "BONUS: increased the avg to be 1-7, and a joke"
+  554  git push
+  555  ls
+  556  ls > history.txt
+  557  cat history.txt
+  558  history > history.txt
