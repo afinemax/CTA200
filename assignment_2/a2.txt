@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+
+\title{CITA200H Assignment 2}
+\author{Maxwell A. Fine}
+\date{May 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\begin{document}
+
+\maketitle
+
+\section{Region of Convergence for $z_{i + 1} = z_i^2 + c$}
+\subsection{Methods}
+This problem requires us to map out an image of where  $z_{i + 1} = z_i^2 + c$, where $c$ is the complex plane in the region $-2 < x < 2$, $-2 < y < 2$, and $z_0 = 0$.
+
+Using \texttt{numpy}, we can construct an array in $\mathbb{C}^2$. The iterations require a for loop; but only one, thanks to \texttt{numpy}'s vector algebra. Choosing an arbitrary $\epsilon$ value to define divergence; We then generate a subspace of convergence and plot.
+
+Unfortunately, there does not exist an elegant method to record the iteration where a point is considered divergent. We are forced to use a nested for loop after every iteration, checking every point in our array for divergence. We then record this iteration number on a new array; this new array is then plotted.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.75]{mandelbrot_1.png}
+\caption{Convergence of the Mandelbrot set is in black}
+\label{fig:Mandelbrot}
+\end{figure}
+
+\newpage{}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.75]{mandelbrot_2.png}
+\caption{Divergence of the Mandelbrot set, by iteration}
+\label{fig:mandelbrot}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.75]{mandelbrot_3.png}
+\caption{Zoom of the Mandelbrot set}
+\label{fig:mandelbrot}
+\end{figure}
+
+\subsection{Analysis}
+We recognize $z_{i + 1} = z_i^2 + c$ as the Mandelbrot set. An obvious feature of the plots, is that they are symmetric across the $x$ axis which is indicative of the complex plane. A less trivial feature, is that the set appear to be "repeating"; That is to say, the set is self similar, in a fractal pattern, when zoomed in.
+\newpage{}
+
+\section{The SIR Model}
+
+\subsection{Methods}
+
+\begin{align}
+    \frac{dS}{dt} &= -\frac{\beta S I}{N},\\
+    \frac{dI}{dt} &= \frac{\beta S I}{N} - \gamma I,\\
+    \frac{dR}{dt} &= \gamma I
+\end{align}
+
+This problem requires us to numerically solve the system of first order ODEs. A simple method, is to use \texttt{odeint} from \texttt{scipy.integrate}. \texttt{odeint} has us input the system, values of $\beta{}$ and $\gamma$, and the domain for which to solve. \texttt{odeint} will then return us a vector of $S(t),I(t),R(t)$.
+
+It is known $R_0 = \frac{\beta}{\gamma}$, the average number of people one infected person infects. Reasonable values for $\beta$ and $\gamma$, can then be deduced by having a reasonable $R_0$ value. 
+\subsection{Bonus}
+\begin{align}
+    \frac{dI}{dt} &= \frac{\beta S I}{N} - \gamma  I - \mu I,\\
+    \frac{dD}{dt} &= \mu I
+\end{align}
+We can account for deaths, denoted as $D(t)$, by adding a $-\mu I$ term in equation (2), and adding a $\frac{dD}{dt} = \mu I$ equation to our system. The coefficient $\mu$ represents the fraction of the infected population that die. The  $-\mu I$ in (4), is then to account for the decrease in the infected population due to deaths. We then solve as before, using the \texttt{odeint} function.
+\pagebreak
+\pagebreak
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{SIR.png}
+\caption{These SIR models use $\beta \approx 0.01$, and $\gamma \approx 0.001$. Time \& Population units are arbitrary}
+\label{fig:sir1}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.70]{SIRD.png}
+\caption{These SIRD models use $\beta \approx 0.01$, $\gamma \approx 0.001$, and $\mu \approx 0.001$.    Time \& Population units are arbitrary}
+\label{fig:sir1}
+\end{figure}
+
+
+
+\subsection{Analysis}
+Looking at the solutions for the SIR and SIRD models; we note that infected rises very sharply, then decays like an exponential function. Recovered and death both behave similarly, increasing to a maximum value as time approaches infinity.
+
+
+\end{document}
