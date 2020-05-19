@@ -213,7 +213,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("lower", help="lower bound frequency for array (inclusive)",
                     type=int)
-parser.add_argument("upper", help="upper = upper bound frequency for arary (inclusive)",
+parser.add_argument("upper", help="upper bound frequency for arary (inclusive)",
                     type=int)
 parser.add_argument("n", help="number of samples in the array",
                     type=int)

@@ -18,7 +18,7 @@
 
 \section{Introduction}
 \subsection{Goals}
-To produce an accurate simulation of bandwidth depolarization by Faraday rotation.To verify the analytic solution proposed by Schnitzeler \& Lee (2015) by using the simulation and to test Brentjens & de Bruyn (2005) prediction of the 50\% depolarization threshold.
+To produce an accurate simulation of bandwidth depolarization by Faraday rotation. To verify the analytic solution proposed by Schnitzeler \& Lee (2015) by using the simulation and to test Brentjens & de Bruyn (2005) prediction of the 50\% depolarization threshold.
 
 \subsection{Bandwidth depolarization}
 Bandwidth depolarization is a phenomena that effects polarized radio emission, which undergo Faraday rotation, that we observe when using frequency channels that have non-zero bandwidth. We can simulate bandwidth depolarization by numerically integrating and averaging the complex polarization value per channel over our set of frequency channels.
@@ -47,7 +47,7 @@ Schnitzeler \& Lee Eqtn 13 (analytical prediction):
 
 Predicted 50\% depolarization threshold (equation 63 of Brentjens \& de Bruyn 2005):
 \begin{equation}
-    |\phi_m_a_x| =  \frac{\sqwrt{3}}{\delta \lambda^2}
+    |\phi_m_a_x| =  \frac{\sqrt{3}}{\delta \lambda^2}
 \end{equation}
 Where $\delta \lambda^2$ is the width of the channel in units of wavelength squared
 
